@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const CategorySearchForm = ({ search, setSearch, openModal }) => {
   return (
-    <div className="input-group mb-3">
+    <div className="input-group mb-3 mt-3">
       <input
         type="text"
         className="form-control"

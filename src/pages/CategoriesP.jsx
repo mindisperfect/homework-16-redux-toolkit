@@ -66,7 +66,7 @@ const CategoriesP = () => {
     
   };
   const deleteCategory = async (id) => {
-    let check = confirm("Are you sure you want to delete this category?");
+    let check = confirm("Are you sure you want to delete this teacher ?");
     if (check) {
       await axios.delete(`https://640b68ce81d8a32198e3826b.mockapi.io/api/v1/teacher/${id}`);
       refetch();
